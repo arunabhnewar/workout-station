@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+
+
+/*------------navbar-------------------*/
+
+.btn {
+    color: #fff;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 15px;
+}
+.form-control-intro {
+    width: 290px;
+    height: 40px;
+    padding: 5px 15px;
+    border: 1px solid darkslategray;
+    background-color: darkslategray;
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 4rem;
+    font-size: small;
+}
+.intro-title {
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+.btn-1 {
+    color: #fff;
+    border: 2px solid green;
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn-2 {
+    color: #fff;
+    border: 2px solid darkslategray;
+    background-color: darkslategray;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.intro-image img {
+    width: 100%;
+}
+.intro-excercise p {
+    border: 2px solid darkslategray;
+    background-color: #000;
+    width: 130px;
+    border-radius: 10px;
+    padding-left: 5px;   
+}
+
+/*----------------exercise section----------------------*/
+
+.exercise {
+    border: none;
+}
+.exercise-title {
+    color: #fff;
+}
+.duration {
+    font-size: small;
+    padding-left: 100px;
+}
+
+
+/*----------------trainers section----------------------*/
+
+.trainers-title h1 {
+    font-size: 4rem;
+    padding-right: 8rem;
+}
+.trainers-info p{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+/*-----------------exercise video section------------------- */
+.exercise-video {
+    margin-top: 250px
+}
+.video-heading {
+    background-color: #000;
+}
+.video-links a{
+    text-decoration: none;
+}
+
+/*-----------------contact info--------------------  */
+
+.contact-info {
+    background-color: #000;
+    color: #fff;
+}
+.contact-info-btn {
+    width: 70px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.contact-info input {
+    width: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+.contact-info p{
+    margin: 0;
+}
+.fab {
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+    transition: transform 0.4s;
+}
+.fab:hover {
+    transform:scale(1.2);
+}
+
+/*-----------------copyrights--------------------- */
+.copyrights {
+    background-color: #000;
+    color: #fff;
+}
